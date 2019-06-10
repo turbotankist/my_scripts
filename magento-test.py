@@ -1,7 +1,7 @@
 from magento import MagentoAPI
 
-magento = MagentoAPI("192.168.1.140", 30081, "sellbery", "1233455")
-#magento = MagentoAPI("www.shirtee.de", 443, "feeds", "1234567890",proto='https')
+magento = MagentoAPI("192.168.1.140", 30081, "basetest", "1233455")
+#magento = MagentoAPI("www", 443, "feeds", "1234567890",proto='https')
 
 #magento.help() # Prints out all resources discovered and available.
 # cart: create, info, license, order, totals

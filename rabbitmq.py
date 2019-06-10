@@ -48,7 +48,7 @@ def receive():
 	queue_name = result.method.queue
 
 	channel.queue_bind(exchange='shop',
-	                   queue=queue_name,routing_key='sellbery')
+	                   queue=queue_name,routing_key='123')
 
 	channel.basic_consume(callback,
 	                      queue=queue_name,

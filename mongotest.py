@@ -6,7 +6,7 @@ print (__name__)
 start_time = time.time()
 client = MongoClient('mongodb://1.1.1.1')
 print("--- %s seconds ---" % (time.time() - start_time))
-db = client.sellbery
+db = client.mycompany
 print("--- %s seconds ---" % (time.time() - start_time))
 customers = db.customers
 print("--- %s seconds ---" % (time.time() - start_time))
@@ -30,7 +30,7 @@ for user in CUSTs:
 # print("\n------------------------\n")
 # i=1
 # for user in CUSTs:
-# 	if "sellbery.com"  in user["structure"]["email"] or "stepcart"  in user["structure"]["email"]  : 
+# 	if "mycompany.com"  in user["structure"]["email"] or "stepcart"  in user["structure"]["email"]  : 
 # 		print(i,". email: ",user["structure"]["email"],"")
 # 		print("Name: ",user["structure"]["name"],"\n")
 # 		i +=1
